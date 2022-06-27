@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  background: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+
+header {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  width: 75px;
+  height: 53px;
+  margin-left: 24px;
+}
+ion-icon {
+  width: 42px;
+  height: 30px;
+  margin-right: 24px;
+}
+
+ion-icon {
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin: 80px 0;
+  font-size: 14px;
+  overflow: scroll;
+}
+
+main li {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 4px;
+  line-height: 22px;
+  word-break: break-word;
+}
+strong {
+  font-weight: bold;
+}
+.entrada-saida {
+  background: #dcdcdc;
+}
+
+.conversa-publica {
+  background: #fff;
+}
+
+.conversa-privada {
+  background: #ffdede;
+}
+
+.horario {
+  margin-right: 5px;
+  color: #b8b8b8;
+}
+
+footer {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer input {
+  border: 0;
+  color: black;
+  width: 70%;
+  font-size: 18px;
+}
+
+footer input::placeholder {
+  font-weight: 400;
+  color: black;
+  font-style: italic;
+}
+
+footer input:focus {
+  outline: 0;
+  font-style: normal;
+}
+
+footer * {
+  margin: 0 17px;
+}
